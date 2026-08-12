@@ -1,37 +1,14 @@
 import Image from "next/image";
 
 const depoimentos = [
-  {
-    texto: "Em apenas 2 semanas minha filha já conseguia identificar todas as letras e formar sílabas. Estou impressionada com a evolução! 🥹",
-    nome: "Ana Paula M.",
-    info: "Mãe de menina de 5 anos",
-    avatar: "/images/avatar-ana-paula.png",
-  },
-  {
-    texto: "Meu filho tem TDAH e eu não acreditava que fosse funcionar… Em menos de 1 mês ele já está lendo palavrinhas. Método incrível! 🙌",
-    nome: "Fernanda L.",
-    info: "Mãe de menino de 7 anos",
-    avatar: "/images/avatar-fernanda.png",
-  },
-  {
-    texto: "Minha filha adorou as atividades! É a primeira vez que ela pede para estudar sozinha. A metodologia é simples e os resultados aparecem rápido. 😊",
-    nome: "Juliana R.",
-    info: "Mãe de menina de 6 anos",
-    avatar: "/images/avatar-juliana.png",
-  },
-  {
-    texto: "Vale muito mais que o preço! Meu filho avançou um semestre em poucas semanas. A professora ficou surpresa com o progresso. 😄",
-    nome: "Marcos T.",
-    info: "Pai de menino de 8 anos",
-    avatar: "/images/avatar-marcos.png",
-  },
-  {
-    texto: "Sou professora e recomendo para todas as famílias. O método fonético é o mais eficaz que conheço e as atividades são muito bem elaboradas. 👏",
-    nome: "Carla S.",
-    info: "Professora e mãe de 2 filhos",
-    avatar: "/images/avatar-carla.png",
-  },
+  "/images/depoimento-whats-01.png",
+  "/images/depoimento-whats-02.png",
+  "/images/depoimento-whats-03.png",
+  "/images/depoimento-whats-04.png",
+  "/images/depoimento-whats-05.png",
 ];
+
+const trilha = [...depoimentos, ...depoimentos];
 
 export default function Depoimentos() {
   return (
@@ -45,28 +22,20 @@ export default function Depoimentos() {
             filhos com o Educakids360, pelo Método Grafismo Fonético.
           </p>
         </div>
-        <div className="depoimentos-grid">
-          {depoimentos.map((d) => (
-            <div className="depoimento-card" key={d.nome}>
-              <div className="estrelas">★★★★★</div>
-              <blockquote>&ldquo;{d.texto}&rdquo;</blockquote>
-              <div className="depoimento-autor">
-                <Image
-                  src={d.avatar}
-                  alt={d.nome}
-                  width={48}
-                  height={48}
-                  sizes="48px"
-                  loading="lazy"
-                  className="autor-avatar-img"
-                  style={{ borderRadius: "50%", objectFit: "cover" }}
-                />
-                <div>
-                  <div className="autor-nome">{d.nome}</div>
-                  <div className="autor-info">{d.info}</div>
-                  <div className="autor-selo">✅ Compra verificada</div>
-                </div>
-              </div>
+      </div>
+      <div className="depoimentos-marquee">
+        <div className="depoimentos-track">
+          {trilha.map((src, i) => (
+            <div className="depoimento-print" key={i} aria-hidden={i >= depoimentos.length}>
+              <Image
+                src={src}
+                alt="Print de conversa no WhatsApp de mãe agradecendo pelos resultados do Educakids360"
+                width={730}
+                height={1352}
+                sizes="(max-width: 640px) 200px, 260px"
+                loading="lazy"
+                className="depoimento-print-img"
+              />
             </div>
           ))}
         </div>

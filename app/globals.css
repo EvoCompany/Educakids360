@@ -364,60 +364,48 @@ a { text-decoration: none; color: inherit; }
 .beneficio-card p { font-size: 14px; color: var(--texto-suave); }
 
 /* ─── DEPOIMENTOS ─── */
-.depoimentos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
+.depoimentos-marquee {
   margin-top: 36px;
-}
-.depoimento-card {
-  background: var(--branco);
-  border-radius: var(--radius);
-  padding: 28px 24px;
-  box-shadow: var(--sombra);
+  overflow: hidden;
   position: relative;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
 }
-.depoimento-card::before {
-  content: '"';
-  font-family: var(--font-fredoka), cursive;
-  font-size: 80px;
-  color: var(--azul-claro);
-  opacity: 0.15;
-  position: absolute;
-  top: 10px; left: 16px;
-  line-height: 1;
-}
-.estrelas { color: #FF9F00; font-size: 18px; margin-bottom: 12px; }
-.depoimento-card blockquote {
-  font-size: 14px;
-  color: var(--texto-suave);
-  font-style: italic;
-  margin-bottom: 16px;
-  position: relative;
-  z-index: 1;
-}
-.depoimento-autor {
+.depoimentos-track {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  width: max-content;
+  gap: 20px;
+  animation: depoimentos-scroll 36s linear infinite;
 }
-.autor-avatar-img {
-  width: 48px; height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--azul-claro);
+.depoimentos-marquee:hover .depoimentos-track {
+  animation-play-state: paused;
+}
+.depoimento-print {
   flex-shrink: 0;
+  width: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  background: var(--branco);
 }
-.autor-avatar {
-  width: 44px; height: 44px;
-  border-radius: 50%;
-  background: var(--azul-bg);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 20px;
+.depoimento-print-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.autor-nome { font-size: 14px; font-weight: 800; color: var(--azul-escuro); }
-.autor-info { font-size: 12px; color: var(--texto-suave); }
-.autor-selo { font-size: 11px; font-weight: 700; color: #3DBB5A; margin-top: 2px; }
+@keyframes depoimentos-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .depoimentos-track { animation: none; }
+}
+@media (min-width: 768px) {
+  .depoimento-print { width: 240px; }
+}
+@media (min-width: 1024px) {
+  .depoimento-print { width: 260px; }
+}
 
 /* ─── BÔNUS ─── */
 .bonus-grid {
@@ -1078,7 +1066,6 @@ a { text-decoration: none; color: inherit; }
   .problema-grid { grid-template-columns: repeat(2, 1fr); }
   .incluso-grid { grid-template-columns: repeat(3, 1fr); }
   .beneficios-grid { grid-template-columns: repeat(2, 1fr); }
-  .depoimentos-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ─── DESKTOP (1024px+) ─── */
@@ -1092,5 +1079,4 @@ a { text-decoration: none; color: inherit; }
   .problema-grid { grid-template-columns: repeat(2, 1fr); }
   .incluso-grid { grid-template-columns: repeat(3, 1fr); }
   .beneficios-grid { grid-template-columns: repeat(3, 1fr); }
-  .depoimentos-grid { grid-template-columns: repeat(3, 1fr); }
 }

@@ -7,12 +7,12 @@ export default function Hero() {
         {/* Mockup: respiro no topo, espaço reduzido até a headline */}
         <div style={{ paddingTop: "32px", marginBottom: "20px", lineHeight: 0 }}>
           <Image
-            src="/images/mockup-principal.png"
+            src="/images/mockup-principal-hero.webp"
             alt="Kit Educakids360 — Método Grafismo Fonético"
-            width={1365}
-            height={738}
+            width={1080}
+            height={584}
             priority
-            sizes="(max-width: 900px) 100vw, 860px"
+            unoptimized
             style={{ width: "100%", height: "auto", display: "block", borderRadius: "12px" }}
           />
         </div>

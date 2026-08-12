@@ -41,7 +41,7 @@ export default function Depoimentos() {
           <span className="tag tag--verde">Resultados Reais</span>
           <h2 className="titulo">O que mães e pais estão dizendo</h2>
           <p className="subtitulo mx-auto">
-            Mais de 3.000 famílias já transformaram o aprendizado dos seus
+            Mais de 2.400 famílias já transformaram o aprendizado dos seus
             filhos com o Educakids360, pelo Método Grafismo Fonético.
           </p>
         </div>
@@ -64,6 +64,7 @@ export default function Depoimentos() {
                 <div>
                   <div className="autor-nome">{d.nome}</div>
                   <div className="autor-info">{d.info}</div>
+                  <div className="autor-selo">✅ Compra verificada</div>
                 </div>
               </div>
             </div>

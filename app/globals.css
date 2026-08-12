@@ -417,6 +417,7 @@ a { text-decoration: none; color: inherit; }
 }
 .autor-nome { font-size: 14px; font-weight: 800; color: var(--azul-escuro); }
 .autor-info { font-size: 12px; color: var(--texto-suave); }
+.autor-selo { font-size: 11px; font-weight: 700; color: #3DBB5A; margin-top: 2px; }
 
 /* ─── BÔNUS ─── */
 .bonus-grid {
@@ -674,6 +675,12 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
 }
 .oferta-seguranca-item span:first-child { font-size: 22px; }
+.oferta-pagamento-seguro {
+  text-align: center;
+  font-size: 11px;
+  color: rgba(255,255,255,0.65);
+  margin-top: 10px;
+}
 
 /* ─── GARANTIA SECTION ─── */
 .garantia-box {

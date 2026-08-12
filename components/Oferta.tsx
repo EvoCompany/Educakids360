@@ -86,6 +86,9 @@ export default function Oferta() {
                 <div className="oferta-seguranca-item"><span>🛡️</span><span>Garantia</span></div>
                 <div className="oferta-seguranca-item"><span>✅</span><span>Satisfação Protegida</span></div>
               </div>
+              <p className="oferta-pagamento-seguro">
+                🔐 Pagamento processado com segurança pela Cakto
+              </p>
             </div>
 
             {/* ── Plano Completo ── */}
@@ -139,6 +142,9 @@ export default function Oferta() {
                 <div className="oferta-seguranca-item"><span>🛡️</span><span>Garantia</span></div>
                 <div className="oferta-seguranca-item"><span>✅</span><span>Satisfação Protegida</span></div>
               </div>
+              <p className="oferta-pagamento-seguro">
+                🔐 Pagamento processado com segurança pela Cakto
+              </p>
             </div>
           </div>
 

@@ -45,6 +45,18 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${nunito.variable} ${fredoka.variable}`}>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);`,
+          }}
+        />
+        <link rel="preload" href="https://scripts.converteai.net/c0564650-e449-46b9-a4c6-f4651667540c/players/6a7d79ba6ee5cbf584dfec03/v4/player.js" as="script" />
+        <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script" />
+        <link rel="preload" href="https://cdn.converteai.net/c0564650-e449-46b9-a4c6-f4651667540c/6a7d79b6aa7b9d4e857f2351/main.m3u8" as="fetch" />
+        <link rel="dns-prefetch" href="https://cdn.converteai.net" />
+        <link rel="dns-prefetch" href="https://scripts.converteai.net" />
+        <link rel="dns-prefetch" href="https://images.converteai.net" />
+        <link rel="dns-prefetch" href="https://license.vturb.com" />
         <link rel="preconnect" href="https://cdn.utmify.com.br" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//cdn.utmify.com.br" />
         <link rel="dns-prefetch" href="//pay.cakto.com.br" />

@@ -1,5 +1,6 @@
 import UrgenciaBar from "@/components/UrgenciaBar";
 import Hero from "@/components/Hero";
+import VideoDemo from "@/components/VideoDemo";
 import Problema from "@/components/Problema";
 import Solucao from "@/components/Solucao";
 import Incluso from "@/components/Incluso";
@@ -22,6 +23,7 @@ export default function Home() {
       <UrgenciaBar />
       <main>
         <Hero />
+        <VideoDemo />
         <Problema />
         <Solucao />
         <Incluso />

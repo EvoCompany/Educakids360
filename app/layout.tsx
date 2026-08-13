@@ -50,9 +50,12 @@ export default function RootLayout({
             __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);`,
           }}
         />
-        <link rel="preload" href="https://scripts.converteai.net/c0564650-e449-46b9-a4c6-f4651667540c/players/6a7d79ba6ee5cbf584dfec03/v4/player.js" as="script" />
-        <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script" />
-        <link rel="preload" href="https://cdn.converteai.net/c0564650-e449-46b9-a4c6-f4651667540c/6a7d79b6aa7b9d4e857f2351/main.m3u8" as="fetch" />
+        {/* Sem preload do player/manifest de video aqui: o navegador priorizava
+            o download de varios MB de segmentos HLS junto com a imagem do
+            Hero, derrubando FCP/LCP no mobile. O player agora e carregado
+            sob demanda pelo proprio VideoDemo quando a secao entra perto do
+            viewport — dns-prefetch abaixo so resolve o DNS antecipadamente,
+            sem baixar nada. */}
         <link rel="dns-prefetch" href="https://cdn.converteai.net" />
         <link rel="dns-prefetch" href="https://scripts.converteai.net" />
         <link rel="dns-prefetch" href="https://images.converteai.net" />

@@ -46,7 +46,7 @@ export default function UpsellBasicoPopup({
         </div>
 
         <a
-          href="https://pay.cakto.com.br/9hf5b5j"
+          href="https://pay.cakto.com.br/3f5hzdx"
           className="btn-cta exit-btn"
         >
           🔥 SIM! QUERO O KIT COMPLETO POR R$17,90

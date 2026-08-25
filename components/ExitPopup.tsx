@@ -115,9 +115,8 @@ export default function ExitPopup() {
           <span className="exit-preco-parcel">ou 2× de R$ 9,95 sem juros</span>
         </div>
 
-        {/* TODO: trocar pelo link Cakto com preço de R$19,90 */}
         <a
-          href="https://pay.cakto.com.br/ssyixoq"
+          href="https://pay.cakto.com.br/3347xmw"
           className="btn-cta exit-btn"
         >
           🔥 SIM! QUERO GARANTIR POR R$19,90 AGORA

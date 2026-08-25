@@ -135,9 +135,8 @@ export default function OfertaV2() {
 
               <p className="oferta-access-info">ACESSO VITALÍCIO | ACESSO IMEDIATO</p>
 
-              {/* TODO: aguardando link de checkout Cakto (Kit Completo, R$ 27,90) */}
               <a
-                href="https://pay.cakto.com.br/AGUARDANDO_LINK_COMPLETO_2790"
+                href="https://pay.cakto.com.br/3f5hzdx"
                 className="btn-cta btn-cta--destaque"
                 style={{ width: "100%", fontSize: "clamp(13px,2vw,15px)", padding: "15px 16px" }}
               >

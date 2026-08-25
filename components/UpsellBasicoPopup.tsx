@@ -11,8 +11,7 @@ export default function UpsellBasicoPopup({
 
   const recusar = () => {
     onClose();
-    // TODO: aguardando link de checkout Cakto (Kit Básico, R$ 10,00)
-    window.location.href = "https://pay.cakto.com.br/AGUARDANDO_LINK_BASICO_1000";
+    window.location.href = "https://pay.cakto.com.br/397qpdk";
   };
 
   return (
@@ -46,9 +45,8 @@ export default function UpsellBasicoPopup({
           <div className="exit-preco-por">R$ 17,90</div>
         </div>
 
-        {/* TODO: aguardando link de checkout Cakto (Kit Completo, R$ 17,90) */}
         <a
-          href="https://pay.cakto.com.br/AGUARDANDO_LINK_UPSELL_1790"
+          href="https://pay.cakto.com.br/9hf5b5j"
           className="btn-cta exit-btn"
         >
           🔥 SIM! QUERO O KIT COMPLETO POR R$17,90

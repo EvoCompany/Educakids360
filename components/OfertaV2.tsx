@@ -136,7 +136,7 @@ export default function OfertaV2() {
               <p className="oferta-access-info">ACESSO VITALÍCIO | ACESSO IMEDIATO</p>
 
               <a
-                href="https://pay.cakto.com.br/3f5hzdx"
+                href="https://pay.cakto.com.br/9hf5b5j"
                 className="btn-cta btn-cta--destaque"
                 style={{ width: "100%", fontSize: "clamp(13px,2vw,15px)", padding: "15px 16px" }}
               >

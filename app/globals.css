@@ -672,9 +672,9 @@ a { text-decoration: none; color: inherit; }
 
 /* ─── GARANTIA SECTION ─── */
 .garantia-box {
-  background: var(--verde-claro);
-  border: 2px solid #3DBB5A;
-  border-radius: 24px;
+  background: var(--branco);
+  border-radius: var(--radius);
+  box-shadow: var(--sombra);
   padding: 40px;
   display: flex;
   gap: 28px;

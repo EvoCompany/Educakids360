@@ -19,9 +19,8 @@ export default function Hero() {
 
         <span className="tag">✨ Educakids360 · Grafismo Fonético</span>
         <h1 className="hero-titulo">
-          A técnica que ensina seu filho
-          <br />a ler <em>até 5× mais rápido</em>,<br />
-          sem pressão nem estresse!
+          +500 Atividades de Grafismo Fonético
+          <br />para seu filho ler <em>até 5× mais rápido</em>
         </h1>
         <p className="hero-sub">
           Funciona com apenas{" "}

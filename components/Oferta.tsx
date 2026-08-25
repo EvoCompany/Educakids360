@@ -1,5 +1,3 @@
-"use client";
-
 import dynamic from "next/dynamic";
 const Countdown = dynamic(() => import("./Countdown"), { ssr: false });
 
@@ -76,7 +74,7 @@ export default function Oferta() {
               <p className="oferta-access-info">ACESSO VITALÍCIO | ACESSO IMEDIATO</p>
 
               <a
-                href="https://pay.cakto.com.br/3ep5uku"
+                href="https://pay.cakto.com.br/yv37nq3_810224"
                 className="btn-cta btn-cta--static"
                 style={{ width: "100%", fontSize: "clamp(13px,2.5vw,16px)", padding: "15px 20px" }}
               >

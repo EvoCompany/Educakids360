@@ -4,6 +4,7 @@ import VideoDemo from "@/components/VideoDemo";
 import Problema from "@/components/Problema";
 import Solucao from "@/components/Solucao";
 import Incluso from "@/components/Incluso";
+import AtividadesPreview from "@/components/AtividadesPreview";
 import Beneficios from "@/components/Beneficios";
 import Depoimentos from "@/components/Depoimentos";
 import Bonus from "@/components/Bonus";
@@ -27,6 +28,7 @@ export default function Home() {
         <Problema />
         <Solucao />
         <Incluso />
+        <AtividadesPreview />
         <Beneficios />
         <Depoimentos />
         <Bonus />

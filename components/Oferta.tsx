@@ -151,7 +151,7 @@ export default function Oferta() {
           <div className="garantia-strip">
             <span className="garantia-icon">🛡️</span>
             <span>
-              <strong>Garantia de 7 dias:</strong> Se não gostar, devolvemos
+              <strong>Garantia de 30 dias:</strong> Se não gostar, devolvemos
               100% do seu dinheiro. Sem perguntas, sem burocracia.
             </span>
           </div>

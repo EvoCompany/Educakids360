@@ -50,7 +50,7 @@ export default function Problema() {
             Quero resolver isso agora — R$&nbsp;27,90
           </a>
           <p className="cta-abaixo dark" style={{ marginTop: "12px" }}>
-            🔒 7 dias de garantia • Acesso imediato • Sem risco
+            🔒 30 dias de garantia • Acesso imediato • Sem risco
           </p>
         </div>
       </div>

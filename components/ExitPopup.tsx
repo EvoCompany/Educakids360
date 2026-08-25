@@ -131,7 +131,7 @@ export default function ExitPopup() {
           Não obrigado, prefiro pagar mais caro depois
         </button>
 
-        <p className="exit-seguranca">🔒 Compra 100% segura · Acesso imediato · Garantia de 7 dias</p>
+        <p className="exit-seguranca">🔒 Compra 100% segura · Acesso imediato · Garantia de 30 dias</p>
       </div>
     </div>
   );

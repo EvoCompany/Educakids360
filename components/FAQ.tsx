@@ -21,7 +21,7 @@ const perguntas = [
   },
   {
     q: "E se eu não gostar? Existe garantia?",
-    a: "Sim! Você tem 7 dias de garantia total. Se por qualquer motivo não ficar satisfeita, basta enviar um e-mail para nosso suporte e devolvemos 100% do valor pago, sem perguntas e sem burocracia.",
+    a: "Sim! Você tem 30 dias de garantia total. Se por qualquer motivo não ficar satisfeita, basta enviar um e-mail para nosso suporte e devolvemos 100% do valor pago, sem perguntas e sem burocracia.",
   },
   {
     q: "Posso imprimir o material mais de uma vez?",
@@ -80,7 +80,7 @@ export default function FAQ() {
             🚀 Garantir meu Kit Educakids360 Agora!
           </a>
           <p className="cta-abaixo dark" style={{ marginTop: "12px" }}>
-            🔒 7 dias de garantia • Acesso imediato • Sem risco
+            🔒 30 dias de garantia • Acesso imediato • Sem risco
           </p>
         </div>
       </div>

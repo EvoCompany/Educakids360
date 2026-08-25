@@ -680,7 +680,8 @@ a { text-decoration: none; color: inherit; }
   gap: 28px;
   align-items: center;
 }
-.garantia-icone { font-size: 72px; flex-shrink: 0; }
+.garantia-icone { flex-shrink: 0; line-height: 0; }
+.garantia-icone img { width: 110px; height: 110px; border-radius: 50%; }
 .garantia-box h2 { font-size: 24px; font-weight: 900; color: var(--verde); margin-bottom: 10px; }
 .garantia-box p { font-size: 15px; color: var(--texto-suave); }
 
@@ -1022,7 +1023,7 @@ a { text-decoration: none; color: inherit; }
   .solucao-wrap { grid-template-columns: 1fr; }
   .solucao-img { order: -1; }
   .garantia-box { flex-direction: column; text-align: center; padding: 28px 20px; }
-  .garantia-icone { font-size: 56px; }
+  .garantia-icone img { width: 80px; height: 80px; }
   .oferta-box { padding: 36px 20px; }
   .bonus-item { flex-wrap: wrap; }
   .bonus-valor { width: 100%; }

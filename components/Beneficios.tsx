@@ -33,7 +33,7 @@ export default function Beneficios() {
             ✅ Quero esses benefícios para meu filho!
           </a>
           <p className="cta-abaixo dark" style={{ marginTop: "12px" }}>
-            🔒 7 dias de garantia • Acesso imediato • Sem risco
+            🔒 30 dias de garantia • Acesso imediato • Sem risco
           </p>
         </div>
       </div>

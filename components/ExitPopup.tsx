@@ -68,6 +68,11 @@ export default function ExitPopup() {
     setDismissed(true);
   };
 
+  const recusar = () => {
+    dismiss();
+    window.location.href = "https://pay.cakto.com.br/3fdih5u";
+  };
+
   const mins = String(Math.floor(seconds / 60)).padStart(2, "0");
   const secs = String(seconds % 60).padStart(2, "0");
 
@@ -122,7 +127,7 @@ export default function ExitPopup() {
           🔥 SIM! QUERO GARANTIR POR R$19,90 AGORA
         </a>
 
-        <button className="exit-recusar" onClick={dismiss}>
+        <button className="exit-recusar" onClick={recusar}>
           Não obrigado, prefiro pagar mais caro depois
         </button>
 

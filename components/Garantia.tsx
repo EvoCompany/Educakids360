@@ -7,7 +7,7 @@ export default function Garantia() {
         <div className="garantia-box">
           <div className="garantia-icone">
             <Image
-              src="/images/garantia-30-dias.jpg"
+              src="/images/garantia-30-dias.png"
               alt="Selo de garantia de 30 dias"
               width={110}
               height={110}

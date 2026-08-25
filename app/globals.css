@@ -494,6 +494,7 @@ a { text-decoration: none; color: inherit; }
 }
 .oferta-por {
   font-family: var(--font-fredoka), cursive;
+  font-weight: 800;
   font-size: clamp(48px, 10vw, 72px);
   color: #FFE800;
   text-shadow: 0 2px 14px rgba(255,220,0,0.45);

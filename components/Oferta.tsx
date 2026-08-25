@@ -69,7 +69,7 @@ export default function Oferta() {
               <div className="oferta-por" style={{ fontSize: "clamp(36px,7vw,56px)", marginBottom: "4px" }}>
                 R$ 27,90
               </div>
-              <div className="oferta-parcel">ou 4× de R$ 7,97 sem juros</div>
+              <div className="oferta-parcel">ou 4× de <strong>R$ 7,97</strong> sem juros</div>
 
               <p className="oferta-access-info">ACESSO VITALÍCIO | ACESSO IMEDIATO</p>
 
@@ -125,7 +125,7 @@ export default function Oferta() {
               <div className="oferta-por" style={{ fontSize: "clamp(40px,7vw,60px)", marginBottom: "4px" }}>
                 R$ 37,90
               </div>
-              <div className="oferta-parcel">5x de R$ 8,39 *</div>
+              <div className="oferta-parcel">5x de <strong>R$ 8,39</strong> *</div>
 
               <p className="oferta-access-info">ACESSO VITALÍCIO | ACESSO IMEDIATO</p>
 

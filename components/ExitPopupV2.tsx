@@ -114,9 +114,8 @@ export default function ExitPopupV2() {
           <div className="exit-preco-por">R$ 14,90</div>
         </div>
 
-        {/* TODO: aguardando link de checkout Cakto (Kit Completo, R$ 14,90) */}
         <a
-          href="https://pay.cakto.com.br/AGUARDANDO_LINK_EXIT_1490"
+          href="https://pay.cakto.com.br/3fdih5u"
           className="btn-cta exit-btn"
         >
           🔥 SIM! QUERO GARANTIR POR R$14,90 AGORA

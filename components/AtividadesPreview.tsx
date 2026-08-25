@@ -37,10 +37,9 @@ export default function AtividadesPreview() {
             <Image
               src={atividades[index]}
               alt={`Exemplo de atividade ${index + 1} do material Educakids360`}
-              width={640}
-              height={452}
+              fill
               sizes="(max-width: 600px) 90vw, 520px"
-              style={{ width: "100%", height: "auto" }}
+              style={{ objectFit: "contain" }}
               priority={index === 0}
             />
           </div>

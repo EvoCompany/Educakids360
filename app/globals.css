@@ -1092,14 +1092,15 @@ a { text-decoration: none; color: inherit; }
   margin: 36px auto 0;
 }
 .atividades-frame {
+  position: relative;
   flex: 1;
   min-width: 0;
+  aspect-ratio: 1 / 1;
   border-radius: var(--radius);
   box-shadow: var(--sombra-forte);
   overflow: hidden;
-  background: var(--branco);
+  background: var(--cinza-claro);
 }
-.atividades-frame img { display: block; }
 .atividades-seta {
   flex-shrink: 0;
   width: 44px;

@@ -1,6 +1,7 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
 
-export default function Hero() {
+export default function Hero({ titulo }: { titulo?: ReactNode }) {
   return (
     <section className="hero">
       <div className="container">
@@ -19,9 +20,13 @@ export default function Hero() {
 
         <span className="tag">✨ Educakids360 · Grafismo Fonético</span>
         <h1 className="hero-titulo">
-          A técnica que ensina seu filho
-          <br />a ler <em>até 5× mais rápido</em>,<br />
-          sem pressão nem estresse!
+          {titulo ?? (
+            <>
+              A técnica que ensina seu filho
+              <br />a ler <em>até 5× mais rápido</em>,<br />
+              sem pressão nem estresse!
+            </>
+          )}
         </h1>
         <p className="hero-sub">
           Funciona com apenas{" "}

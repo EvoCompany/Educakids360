@@ -9,7 +9,7 @@ import AtividadesPreview from "@/components/AtividadesPreview";
 import Beneficios from "@/components/Beneficios";
 import Depoimentos from "@/components/Depoimentos";
 import Bonus from "@/components/Bonus";
-import Oferta from "@/components/Oferta";
+import OfertaV2 from "@/components/OfertaV2";
 import Garantia from "@/components/Garantia";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -44,7 +44,7 @@ export default function HomeV2() {
         <Beneficios />
         <Depoimentos />
         <Bonus />
-        <Oferta />
+        <OfertaV2 />
         <Garantia />
         <FAQ />
       </main>

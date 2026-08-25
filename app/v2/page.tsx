@@ -15,7 +15,7 @@ import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
 
-const ExitPopup = dynamic(() => import("@/components/ExitPopup"), { ssr: false });
+const ExitPopupV2 = dynamic(() => import("@/components/ExitPopupV2"), { ssr: false });
 const PurchasePopup = dynamic(() => import("@/components/PurchasePopup"), { ssr: false });
 
 // Página de prévia — não deve ser indexada nem divulgada nos menus do site
@@ -50,7 +50,7 @@ export default function HomeV2() {
       </main>
       <Footer />
       <PurchasePopup />
-      <ExitPopup />
+      <ExitPopupV2 />
     </>
   );
 }

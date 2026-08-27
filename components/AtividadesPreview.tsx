@@ -40,7 +40,6 @@ export default function AtividadesPreview() {
               fill
               sizes="(max-width: 600px) 90vw, 520px"
               style={{ objectFit: "contain" }}
-              priority={index === 0}
             />
           </div>
 
